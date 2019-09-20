@@ -11,7 +11,7 @@ public class indexController {
 
     @RequestMapping("/log")
     public String index(){
-        log.info("测试日志git" );
+        log.info("测试日志gist" );
         return "hello word";
     }
 }
